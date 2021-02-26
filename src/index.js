@@ -7,15 +7,15 @@ import TaskBoard from "./pages/TaskBoard/TaskBoard.component";
 
 const tasks = [
   {
-    title: "todo",
-    tasks: ["Read chapters for next class"]
+    title: "component",
+    tasks: [<input type="text" />, <button>button</button>]
   },
   {
-    title: "doing",
-    tasks: ["Complete in-class activity", "Brainsotrm project ideas"]
+    title: "Add",
+    tasks: []
   },
   {
-    title: "done",
+    title: "delete",
     tasks: []
   }
 ];
